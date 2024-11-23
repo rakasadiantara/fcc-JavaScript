@@ -1,0 +1,33 @@
+body {
+    background-image: url('bgTable.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+}
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button { 
+    width: 200px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: #016f32;
+    padding: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 4px;
+    text-transform:uppercase;
+}
