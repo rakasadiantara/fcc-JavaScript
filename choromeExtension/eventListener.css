@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 100vw;
+   
+}
+
+#box {
+    cursor: pointer;
+    background-color: lightskyblue;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+    font-weight: bold;
+
+
+}
