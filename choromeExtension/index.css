@@ -26,4 +26,12 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 4px;
+    margin-bottom: 10px;
  }
+
+ ul {
+    list-style-type: disc; /* Ensures the default bullet points are displayed */
+    
+    padding-left: 20px; /* Optional: Adjust padding for better alignment */
+
+}
