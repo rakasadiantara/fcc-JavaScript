@@ -7,8 +7,10 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    
+    min-width: 400px;
 }
- input {
+input {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -16,22 +18,34 @@ body {
     width: 100%;
     border: 1px solid dodgerblue;
     margin-bottom: 4px;
- }
+}
 
- button {
+button {
     background-color: dodgerblue;
     padding: 10px 20px 10px 20px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    border: none;
+    background-color: dodgerblue;
+    border: 1px solid ;
     border-radius: 4px;
-    margin-bottom: 10px;
- }
-
- ul {
-    list-style-type: disc; /* Ensures the default bullet points are displayed */
+    margin-bottom: 20px;
     
-    padding-left: 20px; /* Optional: Adjust padding for better alignment */
+}
 
+#delete-btn {
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+ul {
+    list-style-type: none; /* Ensures the default bullet points are displayed */
+    padding-left: 0px; /* Optional: Adjust padding for better alignment */
+ }
+li {
+    margin-bottom: 5px; 
+}
+li a {
+    color: dodgerblue;
 }
